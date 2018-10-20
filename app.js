@@ -4,6 +4,7 @@ let hour = clockTime.getHours();
 let minute = clockTime.getMinutes();
 let second = clockTime.getSeconds();
 
+  hour = checkTime(hour);
   minute = checkTime(minute);
   second = checkTime(second);
 
