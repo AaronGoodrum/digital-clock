@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 * {
   padding: 0;
   margin: 0;
@@ -5,9 +6,37 @@
 }
 
 body{
-  background:white;
+  background: url("./pattern.png")
 }
 
 .main{
   background: lightblue;
+  width: 400px;
+  margin: 10% auto;
+  height: 175px;
+  position: relative;
+  padding: 30px;
+}
+
+.badge{
+  width: 150px;
+  background: lightslategray;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: 30%;
+}
+
+.clock{
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 45px;
+  height: 100%;
+  padding-top: 30px;
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
 }
